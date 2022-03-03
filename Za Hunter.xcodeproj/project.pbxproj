@@ -13,6 +13,7 @@
 		3F1A80AF27D1232900512D34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A80AE27D1232900512D34 /* Preview Assets.xcassets */; };
 		3F1A80BA27D1232900512D34 /* Za_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A80B927D1232900512D34 /* Za_HunterTests.swift */; };
 		3F1A80C527D1232900512D34 /* Za_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A80C427D1232900512D34 /* Za_HunterUITests.swift */; };
+		3F1A80D327D123EC00512D34 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A80D227D123EC00512D34 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F1A80C027D1232900512D34 /* Za HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1A80C427D1232900512D34 /* Za_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za_HunterUITests.swift; sourceTree = "<group>"; };
 		3F1A80C627D1232900512D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1A80D227D123EC00512D34 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		3F1A809B27D1232300512D34 = {
 			isa = PBXGroup;
 			children = (
+				3F1A80D227D123EC00512D34 /* LocationManager.swift */,
 				3F1A80A627D1232300512D34 /* Za Hunter */,
 				3F1A80B827D1232900512D34 /* Za HunterTests */,
 				3F1A80C327D1232900512D34 /* Za HunterUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				3F1A80AA27D1232300512D34 /* ContentView.swift in Sources */,
 				3F1A80A827D1232300512D34 /* Za_HunterApp.swift in Sources */,
+				3F1A80D327D123EC00512D34 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
